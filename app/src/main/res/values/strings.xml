@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Book Listing App - Updated Version</string>
+    <string name="search_title">Search for Books</string>
+    <string name="search_button">Search</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Text to display in the list when there are no books -->
+    <string name="no_books">No books were found.</string>
+
+    <!-- Preferences Activity Title -->
+    <string name="preferences_title">Book Listing App Preferences</string>
+
+    <!-- Preferences Menu Item  -->
+    <string name="preferences_menu_item">Preferences</string>
+
+    <!-- Display before a user makes a search -->
+    <string name="search_for_books">Search online for any kind of books.</string>
+
+    <!-- Strings For Number of Books Shown -->
+    <string name="settings_num_books_label">Number of Books Shown</string>
+    <string name="settings_num_books_key" translatable="false">books_number</string>
+    <string name="settings_num_books_default" translatable="false">20</string>
+</resources>
