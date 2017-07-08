@@ -9,7 +9,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".BookActivity">
-            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PreferecesActivity"
+            android:name=".PreferencesActivity"
             android:label="@string/preferences_title">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
